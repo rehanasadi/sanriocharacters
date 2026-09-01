@@ -1,0 +1,2255 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanrio Character Rankings 2025 â€“ Official Popularity Charts & History | SanrioCharacters.com</title>
+<meta name="description" content="Explore Sanrio character rankings from 2021â€“2025. See who topped the polls, track your favourite character's rise and fall, and discover all 90+ Sanrio characters.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=Shippori+Mincho:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   DESIGN SYSTEM
+   Palette: Deep cherry ink + cream ivory + blush gold
+   Type: Playfair Display (editorial authority) + DM Sans (clean body) + Shippori Mincho (Japanese accent)
+   Aesthetic: Vogue Japan Ã— Sanrio â€” luxury editorial kawaii
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+
+:root {
+  /* Core palette */
+  --ink:          #1C0A16;        /* deep cherry ink â€” primary dark */
+  --ink-mid:      #3D1828;        /* warmer dark for text */
+  --cream:        #FAF6F0;        /* warm ivory paper */
+  --cream-warm:   #F5EDE4;        /* slightly deeper cream */
+  --blush:        #E8A0B0;        /* muted rose blush */
+  --blush-light:  #F2C8D4;        /* pale blush */
+  --blush-pale:   #FAF0F3;        /* near-white blush tint */
+  --cherry:       #C2185B;        /* rich cherry â€” primary accent */
+  --cherry-deep:  #880E4F;        /* deep cherry for hover */
+  --gold:         #C9A84C;        /* warm antique gold */
+  --gold-light:   #E8D5A3;        /* pale gold */
+  --gold-pale:    #FBF5E6;        /* gold tint bg */
+  --silver:       #A0A0A0;
+  --bronze:       #B87333;
+  --mint:         #B2D8C8;        /* soft sage mint for accents */
+  --lavender:     #C5B8E8;        /* soft lavender */
+  --muted:        #7A5568;        /* muted purple-rose for secondary text */
+  --muted-light:  #B09AA8;        /* lighter muted */
+  --border:       rgba(28,10,22,0.1);
+  --border-warm:  rgba(200,168,76,0.25);
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body:    'DM Sans', sans-serif;
+  --font-accent:  'Shippori Mincho', serif;
+
+  /* Spacing */
+  --max-w: 1240px;
+  --section-pad: 96px 24px;
+
+  /* Shadows */
+  --shadow-card:  0 2px 24px rgba(28,10,22,0.08), 0 1px 4px rgba(28,10,22,0.04);
+  --shadow-lift:  0 12px 48px rgba(28,10,22,0.14), 0 4px 16px rgba(28,10,22,0.06);
+  --shadow-gold:  0 8px 40px rgba(201,168,76,0.25);
+  --shadow-cherry: 0 8px 40px rgba(194,24,91,0.2);
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--cream);
+  color: var(--ink-mid);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* â”€â”€â”€ PAGE LOAD REVEAL â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.94); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes slideRight {
+  from { transform: translateX(-100%); opacity: 0; }
+  to   { transform: translateX(0); opacity: 1; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33%       { transform: translateY(-8px) rotate(1deg); }
+  66%       { transform: translateY(-4px) rotate(-1deg); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+@keyframes barGrow {
+  from { width: 0; }
+}
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse-ring {
+  0%   { box-shadow: 0 0 0 0 rgba(194,24,91,0.3); }
+  70%  { box-shadow: 0 0 0 12px rgba(194,24,91,0); }
+  100% { box-shadow: 0 0 0 0 rgba(194,24,91,0); }
+}
+@keyframes blossom-drift {
+  0%   { transform: translateY(-20px) rotate(0deg) translateX(0); opacity: 0; }
+  10%  { opacity: 0.7; }
+  90%  { opacity: 0.3; }
+  100% { transform: translateY(110vh) rotate(540deg) translateX(80px); opacity: 0; }
+}
+
+.reveal { opacity: 0; animation: fadeUp 0.7s cubic-bezier(0.22,1,0.36,1) forwards; }
+
+/* â”€â”€â”€ BLOSSOM PARTICLES â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.blossom-container {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+.blossom {
+  position: absolute;
+  top: -30px;
+  font-size: 16px;
+  animation: blossom-drift linear infinite;
+  opacity: 0;
+}
+
+/* â”€â”€â”€ NOISE TEXTURE OVERLAY â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.4;
+}
+
+/* â”€â”€â”€ HEADER / NAV â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(250,246,240,0.88);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid var(--border);
+}
+
+nav {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  gap: 24px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.logo-main {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 900;
+  color: var(--ink);
+  letter-spacing: -0.3px;
+  line-height: 1.1;
+}
+.logo-main em {
+  font-style: italic;
+  color: var(--cherry);
+}
+.logo-sub {
+  font-size: 9.5px;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-top: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.nav-links a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+  padding: 7px 14px;
+  border-radius: 100px;
+  letter-spacing: 0.2px;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.nav-links a:hover {
+  color: var(--ink);
+  background: var(--blush-pale);
+}
+.nav-links .nav-cta {
+  background: var(--ink);
+  color: var(--cream) !important;
+  font-weight: 600;
+  margin-left: 4px;
+}
+.nav-links .nav-cta:hover {
+  background: var(--cherry);
+  color: white !important;
+}
+
+.nav-search {
+  flex: 1;
+  max-width: 320px;
+  position: relative;
+}
+.nav-search input {
+  width: 100%;
+  padding: 9px 16px 9px 38px;
+  border: 1.5px solid var(--border);
+  border-radius: 100px;
+  background: white;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--ink-mid);
+  outline: none;
+  transition: all 0.2s;
+}
+.nav-search input:focus {
+  border-color: var(--blush);
+  box-shadow: 0 0 0 3px rgba(232,160,176,0.15);
+}
+.nav-search input::placeholder { color: var(--muted-light); }
+.nav-search-icon {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted-light);
+  font-size: 14px;
+  pointer-events: none;
+}
+
+/* â”€â”€â”€ HERO â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.hero {
+  position: relative;
+  overflow: hidden;
+  background: var(--ink);
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Layered background */
+.hero-bg-layer {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 70% 60% at 80% 40%, rgba(194,24,91,0.22) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 70% at 20% 80%, rgba(197,184,232,0.15) 0%, transparent 55%),
+    radial-gradient(ellipse 60% 50% at 50% 20%, rgba(201,168,76,0.08) 0%, transparent 50%),
+    var(--ink);
+}
+
+/* Decorative grid lines */
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+/* Large decorative Japanese text */
+.hero-kanji {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-accent);
+  font-size: clamp(160px, 18vw, 280px);
+  font-weight: 800;
+  color: rgba(255,255,255,0.03);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  letter-spacing: 0.1em;
+  pointer-events: none;
+  user-select: none;
+  line-height: 1;
+}
+
+/* Decorative cherry blossom accent */
+.hero-blossom-accent {
+  position: absolute;
+  left: 60px;
+  bottom: 80px;
+  font-size: 80px;
+  opacity: 0.08;
+  animation: float 8s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 80px 24px 96px;
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 64px;
+  align-items: center;
+}
+
+.hero-editorial-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 28px;
+  opacity: 0;
+  animation: fadeUp 0.6s 0.1s cubic-bezier(0.22,1,0.36,1) forwards;
+}
+.hero-editorial-tag::before, .hero-editorial-tag::after {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 1px;
+  background: var(--gold);
+  opacity: 0.6;
+}
+
+.hero-h1 {
+  font-family: var(--font-display);
+  font-size: clamp(44px, 5.5vw, 78px);
+  font-weight: 900;
+  color: white;
+  line-height: 1.0;
+  letter-spacing: -1.5px;
+  margin-bottom: 28px;
+  opacity: 0;
+  animation: fadeUp 0.7s 0.2s cubic-bezier(0.22,1,0.36,1) forwards;
+}
+.hero-h1 em {
+  font-style: italic;
+  display: block;
+  background: linear-gradient(135deg, #E8D5A3 0%, #C9A84C 40%, #F5E6B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: 17px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.75;
+  max-width: 480px;
+  margin-bottom: 44px;
+  opacity: 0;
+  animation: fadeUp 0.7s 0.3s cubic-bezier(0.22,1,0.36,1) forwards;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: fadeUp 0.7s 0.4s cubic-bezier(0.22,1,0.36,1) forwards;
+}
+.btn-hero-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 30px;
+  background: var(--cherry);
+  color: white;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  border-radius: 100px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s;
+  box-shadow: var(--shadow-cherry);
+  animation: pulse-ring 3s 2s infinite;
+}
+.btn-hero-primary:hover {
+  background: var(--cherry-deep);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 48px rgba(194,24,91,0.35);
+}
+.btn-hero-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 28px;
+  background: transparent;
+  color: rgba(255,255,255,0.75);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  border: 1.5px solid rgba(255,255,255,0.2);
+  border-radius: 100px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.btn-hero-secondary:hover {
+  border-color: rgba(255,255,255,0.5);
+  color: white;
+  background: rgba(255,255,255,0.06);
+}
+
+/* Hero stat strip */
+.hero-stats-strip {
+  display: flex;
+  gap: 40px;
+  margin-top: 60px;
+  padding-top: 48px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  opacity: 0;
+  animation: fadeUp 0.7s 0.5s cubic-bezier(0.22,1,0.36,1) forwards;
+}
+.hero-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.hero-stat-num {
+  font-family: var(--font-display);
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+.hero-stat-label {
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+}
+
+/* Hero right: 2025 podium preview card */
+.hero-right {
+  opacity: 0;
+  animation: scaleIn 0.8s 0.35s cubic-bezier(0.22,1,0.36,1) forwards;
+}
+.hero-winner-card {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 28px;
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-winner-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold), var(--cherry), var(--lavender));
+}
+.hwc-label {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 20px;
+}
+.hwc-top3 {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.hwc-podium-item {
+  flex: 1;
+  background: rgba(255,255,255,0.05);
+  border-radius: 16px;
+  padding: 16px 10px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.06);
+  text-decoration: none;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+.hwc-podium-item:hover {
+  background: rgba(255,255,255,0.1);
+  transform: translateY(-3px);
+}
+.hwc-podium-item.gold { border-color: rgba(201,168,76,0.3); }
+.hwc-podium-item.silver { border-color: rgba(160,160,160,0.2); }
+.hwc-podium-item.bronze { border-color: rgba(184,115,51,0.2); }
+.hwc-medal { font-size: 18px; margin-bottom: 8px; }
+.hwc-emoji { font-size: 38px; display: block; margin-bottom: 8px; }
+img.hwc-emoji.character-art {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  margin: 0 auto 8px;
+  filter: drop-shadow(0 8px 14px rgba(0,0,0,0.16));
+}
+.hwc-rank {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.hwc-name {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: white;
+  line-height: 1.2;
+}
+
+.hwc-rest {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.hwc-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
+  text-decoration: none;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+.hwc-row:hover { background: rgba(255,255,255,0.07); }
+.hwc-row-rank {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.3);
+  min-width: 22px;
+}
+.hwc-row-emoji { font-size: 18px; }
+img.hwc-row-emoji.character-art {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.hwc-row-name {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.75);
+  flex: 1;
+}
+.hwc-row-trend {
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 100px;
+}
+.trend-up   { background: rgba(34,197,94,0.15); color: #86EFAC; }
+.trend-down { background: rgba(239,68,68,0.15); color: #FCA5A5; }
+.trend-same { background: rgba(255,255,255,0.06); color: rgba(255,255,255,0.4); }
+.trend-new  { background: rgba(201,168,76,0.2); color: #E8D5A3; }
+
+/* â”€â”€â”€ SECTION WRAPPER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.section {
+  padding: var(--section-pad);
+  position: relative;
+}
+.container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+/* Section headings */
+.section-eyebrow {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--cherry);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-eyebrow::after {
+  content: '';
+  display: block;
+  flex: 1;
+  max-width: 40px;
+  height: 1px;
+  background: var(--cherry);
+  opacity: 0.4;
+}
+.section-h2 {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 3.5vw, 42px);
+  font-weight: 900;
+  color: var(--ink);
+  line-height: 1.1;
+  letter-spacing: -0.8px;
+  margin-bottom: 10px;
+}
+.section-h2 em {
+  font-style: italic;
+  color: var(--cherry);
+}
+.section-sub {
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 52px;
+  max-width: 520px;
+}
+
+/* â”€â”€â”€ RANKING TOOL SECTION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.ranking-section {
+  background: var(--cream);
+}
+
+.ranking-tool-shell {
+  background: white;
+  border-radius: 32px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+/* Tool top bar */
+.tool-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+  border-bottom: 1px solid var(--border);
+  background: var(--gold-pale);
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.year-tabs {
+  display: flex;
+  gap: 4px;
+  background: rgba(28,10,22,0.05);
+  padding: 4px;
+  border-radius: 100px;
+}
+.year-tab {
+  padding: 8px 20px;
+  border-radius: 100px;
+  border: none;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.22s;
+  letter-spacing: 0.3px;
+}
+.year-tab:hover { color: var(--ink); }
+.year-tab.active {
+  background: var(--ink);
+  color: white;
+  box-shadow: 0 2px 12px rgba(28,10,22,0.2);
+}
+.year-tab.latest::after {
+  content: 'âœ¦';
+  font-size: 8px;
+  margin-left: 4px;
+  vertical-align: super;
+  color: var(--gold);
+}
+
+.view-tabs {
+  display: flex;
+  gap: 4px;
+}
+.view-tab {
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: 1.5px solid var(--border);
+  background: white;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.view-tab:hover { border-color: var(--blush); color: var(--ink); }
+.view-tab.active {
+  background: var(--cherry);
+  border-color: var(--cherry);
+  color: white;
+}
+
+/* Tool content */
+.tool-content { padding: 40px 32px; }
+
+/* PODIUM */
+.podium-stage {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr 1fr;
+  gap: 16px;
+  margin-bottom: 48px;
+  align-items: end;
+}
+.podium-card {
+  border-radius: 24px;
+  padding: 28px 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--ink);
+  position: relative;
+  transition: transform 0.25s cubic-bezier(0.22,1,0.36,1);
+  overflow: hidden;
+}
+.podium-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 0.25s;
+  background: rgba(255,255,255,0.5);
+}
+.podium-card:hover { transform: translateY(-8px); }
+.podium-card:hover::before { opacity: 1; }
+
+.podium-card.rank-1 {
+  background: linear-gradient(160deg, #FBF5E6 0%, #EED884 60%, #E8C84A 100%);
+  box-shadow: var(--shadow-gold);
+  grid-column: 2;
+  grid-row: 1;
+}
+.podium-card.rank-2 {
+  background: linear-gradient(160deg, #F8F8F8 0%, #E0E0E0 100%);
+  box-shadow: 0 6px 32px rgba(0,0,0,0.08);
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 32px;
+}
+.podium-card.rank-3 {
+  background: linear-gradient(160deg, #FDF0E6 0%, #E8C09A 100%);
+  box-shadow: 0 6px 32px rgba(184,115,51,0.15);
+  grid-column: 3;
+  grid-row: 1;
+  margin-top: 48px;
+}
+
+.podium-medal { font-size: 32px; margin-bottom: 12px; }
+.podium-emoji { font-size: 56px; margin-bottom: 12px; display: block; animation: float 6s ease-in-out infinite; }
+img.podium-emoji.character-art {
+  width: 102px;
+  height: 102px;
+  object-fit: contain;
+  margin: 0 auto 14px;
+  filter: drop-shadow(0 16px 24px rgba(28,10,22,0.14));
+}
+.rank-2 .podium-emoji { animation-delay: -2s; }
+.rank-3 .podium-emoji { animation-delay: -4s; }
+.podium-position {
+  font-family: var(--font-display);
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 6px;
+  letter-spacing: -1px;
+}
+.rank-1 .podium-position { color: #8B6914; }
+.rank-2 .podium-position { color: #6B6B6B; }
+.rank-3 .podium-position { color: #6B3E1A; }
+.podium-name {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: var(--ink);
+}
+.podium-year-pill {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 3px 10px;
+  border-radius: 100px;
+  background: rgba(28,10,22,0.08);
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+/* Rank list (4â€“15) */
+.rank-list { display: flex; flex-direction: column; gap: 4px; }
+.rank-row {
+  display: grid;
+  grid-template-columns: 52px 32px 1fr auto;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 18px;
+  border-radius: 14px;
+  background: transparent;
+  text-decoration: none;
+  color: var(--ink-mid);
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+.rank-row:hover {
+  background: var(--blush-pale);
+  border-color: var(--blush-light);
+  transform: translateX(4px);
+}
+.rank-row-num {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--muted-light);
+  text-align: center;
+  letter-spacing: -0.3px;
+}
+.rank-row-emoji { font-size: 24px; }
+img.rank-row-emoji.character-art {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.rank-row-info { flex: 1; }
+.rank-row-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.2px;
+}
+.rank-row-desc { font-size: 12px; color: var(--muted-light); margin-top: 1px; }
+.rank-row-trend {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 100px;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+/* Light theme trend badges */
+.rank-list .trend-up   { background: #DCFCE7; color: #166534; }
+.rank-list .trend-down { background: #FEE2E2; color: #991B1B; }
+.rank-list .trend-same { background: var(--cream-warm); color: var(--muted); }
+.rank-list .trend-new  { background: var(--gold-pale); color: #7C5C14; border: 1px solid var(--gold-light); }
+
+/* Chart view */
+.chart-view, .history-view { display: none; }
+.chart-view.active, .history-view.active { display: block; }
+.list-view.inactive { display: none; }
+
+.chart-bars { display: flex; flex-direction: column; gap: 8px; }
+.chart-row {
+  display: grid;
+  grid-template-columns: 160px 1fr 36px;
+  align-items: center;
+  gap: 12px;
+}
+.chart-label {
+  font-size: 13px;
+  font-weight: 500;
+  text-align: right;
+  color: var(--ink-mid);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+img.chart-label-art.character-art,
+img.legend-art.character-art,
+img.history-name-art.character-art {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+.chart-track {
+  background: var(--cream-warm);
+  border-radius: 100px;
+  height: 28px;
+  overflow: hidden;
+}
+.chart-fill {
+  height: 100%;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: white;
+  animation: barGrow 0.8s cubic-bezier(0.22,1,0.36,1) backwards;
+}
+.chart-rank-label {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--muted-light);
+}
+
+/* History line chart */
+.history-chart-wrap {
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+.history-legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.history-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink-mid);
+}
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+#historySVG {
+  width: 100%;
+  min-width: 600px;
+  height: 260px;
+  overflow: visible;
+}
+
+/* â”€â”€â”€ STATS TICKER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.stats-bar {
+  background: var(--ink);
+  padding: 0;
+  overflow: hidden;
+}
+.stats-bar-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.stats-bar-item {
+  padding: 36px 24px;
+  border-right: 1px solid rgba(255,255,255,0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.stats-bar-item:last-child { border-right: none; }
+.stats-bar-num {
+  font-family: var(--font-display);
+  font-size: 38px;
+  font-weight: 900;
+  color: white;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.stats-bar-num span { color: var(--gold); }
+.stats-bar-label {
+  font-size: 10.5px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+}
+
+/* â”€â”€â”€ CHARACTER GRID â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.characters-section {
+  background: var(--cream-warm);
+}
+
+.filter-strip {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+.filter-btn {
+  padding: 8px 18px;
+  border-radius: 100px;
+  border: 1.5px solid var(--border);
+  background: white;
+  font-family: var(--font-body);
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.2px;
+}
+.filter-btn:hover { border-color: var(--blush); color: var(--ink); }
+.filter-btn.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: white;
+}
+
+.char-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+  gap: 14px;
+}
+.char-card {
+  background: white;
+  border-radius: 22px;
+  padding: 28px 16px 22px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--ink);
+  border: 1.5px solid transparent;
+  transition: all 0.25s cubic-bezier(0.22,1,0.36,1);
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+.char-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--cherry), var(--blush));
+  transform: scaleX(0);
+  transition: transform 0.25s;
+  transform-origin: left;
+}
+.char-card:hover {
+  border-color: var(--blush-light);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lift);
+}
+.char-card:hover::after { transform: scaleX(1); }
+
+.char-emoji {
+  font-size: 50px;
+  display: block;
+  margin-bottom: 14px;
+  transition: transform 0.3s;
+}
+img.char-emoji.character-art {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  margin: 0 auto 16px;
+  filter: drop-shadow(0 12px 20px rgba(28,10,22,0.12));
+}
+.char-card:hover .char-emoji { transform: scale(1.1) rotate(5deg); }
+.char-name {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 6px;
+  letter-spacing: -0.2px;
+}
+.char-rank-badge {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 100px;
+  background: var(--blush-pale);
+  color: var(--cherry);
+  margin-bottom: 6px;
+  letter-spacing: 0.3px;
+}
+.char-rank-badge.top3 {
+  background: var(--gold-pale);
+  color: #7C5C14;
+}
+.char-tagline {
+  font-size: 11.5px;
+  color: var(--muted-light);
+  line-height: 1.5;
+}
+
+/* â”€â”€â”€ HISTORY SECTION â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.history-section {
+  background: var(--ink);
+  color: white;
+}
+.history-section .section-h2 { color: white; }
+.history-section .section-sub { color: rgba(255,255,255,0.4); }
+.history-section .section-eyebrow { color: var(--gold); }
+.history-section .section-eyebrow::after { background: var(--gold); }
+
+.history-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+.history-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 24px;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+.history-card:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.15);
+  transform: translateY(-3px);
+}
+.hc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.hc-name {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hc-trend-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 100px;
+}
+.hc-bars {
+  display: flex;
+  gap: 6px;
+  align-items: flex-end;
+  height: 72px;
+}
+.hc-bar-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  height: 100%;
+}
+.hc-bar-wrap {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.hc-bar {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  background: rgba(255,255,255,0.15);
+  transition: all 0.4s;
+}
+.hc-bar.winner { background: linear-gradient(180deg, var(--gold), #C9A84C); }
+.hc-bar:hover { background: rgba(255,255,255,0.3); }
+.hc-yr { font-size: 9px; font-weight: 600; color: rgba(255,255,255,0.3); letter-spacing: 0.5px; }
+.hc-rank { font-size: 10px; font-weight: 700; color: rgba(255,255,255,0.5); }
+
+/* â”€â”€â”€ FAQ â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.faq-section { background: white; }
+.faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.faq-item {
+  border: 1.5px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+.faq-item:hover { border-color: var(--blush-light); }
+.faq-item.open { border-color: var(--blush); }
+.faq-q {
+  padding: 20px 22px;
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--ink);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  letter-spacing: -0.1px;
+  line-height: 1.4;
+  user-select: none;
+}
+.faq-q::after {
+  content: '+';
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--cherry);
+  line-height: 1;
+  flex-shrink: 0;
+  transition: transform 0.25s;
+}
+.faq-item.open .faq-q::after {
+  transform: rotate(45deg);
+}
+.faq-a {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.22,1,0.36,1), padding 0.3s;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--muted);
+  line-height: 1.75;
+  padding: 0 22px;
+}
+.faq-item.open .faq-a {
+  max-height: 300px;
+  padding-bottom: 20px;
+}
+
+/* â”€â”€â”€ BLOG PREVIEW â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+.blog-section { background: var(--cream); }
+.blog-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr;
+  gap: 20px;
+}
+.blog-card {
+  background: white;
+  border-radius: 22px;
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--ink);
+  border: 1.5px solid var(--border);
+  transition: all 0.25s;
+  box-shadow: var(--shadow-card);
+}
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lift);
+  border-color: var(--blush-light);
+}
+.blog-card-img {
+  height: 160px;
+  background: linear-gradient(135deg, var(--blush-pale), var(--lavender));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 56px;
+  position: relative;
+  overflow: hidden;
+}
+.blog-card.featured .blog-card-img { height: 220px; font-size: 80px; }
+.blog-card-img-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.12;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1.4) rotate(-10deg);
+}
+.blog-card-body { padding: 24px; }
+.blog-tag {
+  display: inline-block;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--cherry);
+  margin-bottom: 10px;
+}
+.blog-title {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.3;
+  margin-bottom: 10px;
+  letter-spacing: -0.3px;
+}
+.blog-card.featured .blog-title { font-size: 22px; }
+.blog-excerpt {
+  font-size: 13px;
+  font-weight: 300;
+  color: var(--muted);
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+.blog-meta {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--muted-light);
+  letter-spacing: 0.3px;
+}
+
+/* â”€â”€â”€ FOOTER â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+footer {
+  background: var(--ink);
+  color: rgba(255,255,255,0.5);
+  padding: 64px 24px 40px;
+}
+.footer-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  gap: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  margin-bottom: 32px;
+}
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-logo {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  letter-spacing: -0.5px;
+}
+.footer-logo em { font-style: italic; color: var(--gold); }
+.footer-desc {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.7;
+  max-width: 260px;
+}
+.footer-col h4 {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+  margin-bottom: 16px;
+}
+.footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.footer-col ul a {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-col ul a:hover { color: white; }
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.footer-copy {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.6;
+}
+.footer-copy a { color: rgba(255,255,255,0.4); text-decoration: none; }
+.footer-copy a:hover { color: white; }
+.footer-disclaimer {
+  font-size: 11px;
+  font-weight: 300;
+  color: rgba(255,255,255,0.25);
+  max-width: 400px;
+  text-align: right;
+  line-height: 1.6;
+}
+
+/* â”€â”€â”€ RESPONSIVE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
+@media (max-width: 1024px) {
+  .hero-inner { grid-template-columns: 1fr; gap: 48px; }
+  .hero-right { order: -1; }
+  .hero-kanji { font-size: 120px; opacity: 0.02; }
+  .blog-grid { grid-template-columns: 1fr; }
+  .footer-top { grid-template-columns: 1fr 1fr; }
+  .faq-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 768px) {
+  :root { --section-pad: 64px 20px; }
+  .hero-inner { padding: 60px 20px 72px; }
+  .hero-h1 { font-size: 38px; letter-spacing: -0.8px; }
+  .nav-links { display: none; }
+  .stats-bar-inner { grid-template-columns: repeat(2, 1fr); }
+  .podium-stage { grid-template-columns: 1fr 1fr; }
+  .podium-card.rank-1 { grid-column: 1 / -1; margin-top: 0; }
+  .podium-card.rank-2 { margin-top: 0; }
+  .podium-card.rank-3 { margin-top: 0; }
+  .chart-row { grid-template-columns: 110px 1fr 28px; }
+  .hero-stats-strip { gap: 24px; flex-wrap: wrap; }
+  .footer-top { grid-template-columns: 1fr; gap: 32px; }
+  .footer-disclaimer { text-align: left; max-width: 100%; }
+  .tool-topbar { flex-direction: column; align-items: stretch; }
+  .year-tabs { justify-content: center; }
+  .view-tabs { justify-content: center; }
+}
+</style>
+</head>
+
+<body>
+
+<!-- FLOATING BLOSSOM PARTICLES -->
+<div class="blossom-container" id="blossomContainer"></div>
+
+<!-- â•â• HEADER â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<header>
+  <nav>
+    <a href="index.html" class="logo">
+      <span class="logo-main">Sanrio<em>Characters</em>.com</span>
+      <span class="logo-sub">Character Rankings &amp; Encyclopedia</span>
+    </a>
+    <div class="nav-search">
+      <span class="nav-search-icon">ðŸ”</span>
+      <input type="text" id="navSearch" placeholder="Search charactersâ€¦" autocomplete="off">
+    </div>
+    <ul class="nav-links">
+      <li><a href="#rankings">Rankings</a></li>
+      <li><a href="#characters">Characters</a></li>
+      <li><a href="#history">5-Year History</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="/characters" class="nav-cta">All Characters â†’</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- â•â• HERO â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="hero">
+  <div class="hero-bg-layer"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-kanji">ã‚µãƒ³ãƒªã‚ª</div>
+  <div class="hero-blossom-accent">ðŸŒ¸</div>
+
+  <div class="hero-inner">
+    <!-- LEFT: Editorial copy -->
+    <div class="hero-left">
+      <div class="hero-editorial-tag">âœ¦ Updated for 2025 âœ¦</div>
+      <h1 class="hero-h1">
+        Sanrio Character<br>
+        <em>Rankings Hub</em>
+      </h1>
+      <p class="hero-subtitle">
+        The definitive resource for Sanrio character popularity rankings â€”
+        current poll results, five-year histories, and in-depth profiles on every character in the universe.
+      </p>
+      <div class="hero-actions">
+        <a href="#rankings" class="btn-hero-primary">
+          ðŸ† Explore Rankings
+        </a>
+        <a href="#characters" class="btn-hero-secondary">
+          Browse All Characters
+        </a>
+      </div>
+      <div class="hero-stats-strip">
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="statChars">90+</div>
+          <div class="hero-stat-label">Characters</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="statYears">39</div>
+          <div class="hero-stat-label">Years of Polls</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="statVotes">37M+</div>
+          <div class="hero-stat-label">2025 Votes Cast</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num" id="statChamp">ðŸ®</div>
+          <div class="hero-stat-label">2025 Champion</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: 2025 top card -->
+    <div class="hero-right">
+      <div class="hero-winner-card">
+        <div class="hwc-label">âœ¦ 2025 Rankings Preview</div>
+        <div class="hwc-top3">
+          <a href="/characters/cinnamoroll" class="hwc-podium-item silver">
+            <div class="hwc-medal">ðŸ¥ˆ</div>
+            <img class="hwc-emoji character-art" src="https://corporate.sanrio.co.jp/en/business-info/images/img_cinnamoroll.png" alt="Cinnamoroll Sanrio character official art" width="108" height="108">
+            <div class="hwc-rank">2nd Place</div>
+            <div class="hwc-name">Cinnamoroll</div>
+          </a>
+          <a href="/characters/pompompurin" class="hwc-podium-item gold">
+            <div class="hwc-medal">ðŸ‘‘</div>
+            <img class="hwc-emoji character-art" src="https://corporate.sanrio.co.jp/en/business-info/images/img_pompompurin.png" alt="Pompompurin Sanrio character official art" width="108" height="108">
+            <div class="hwc-rank">1st Place</div>
+            <div class="hwc-name">Pompompurin</div>
+          </a>
+          <a href="/characters/pochacco" class="hwc-podium-item bronze">
+            <div class="hwc-medal">ðŸ¥‰</div>
+            <img class="hwc-emoji character-art" src="https://corporate.sanrio.co.jp/en/business-info/images/img_pochacco.png" alt="Pochacco Sanrio character official art" width="108" height="108">
+            <div class="hwc-rank">3rd Place</div>
+            <div class="hwc-name">Pochacco</div>
+          </a>
+        </div>
+        <div class="hwc-rest" id="hwcRest"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- â•â• STATS BAR â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<div class="stats-bar">
+  <div class="stats-bar-inner">
+    <div class="stats-bar-item">
+      <div class="stats-bar-num">90<span>+</span></div>
+      <div class="stats-bar-label">Characters Ranked</div>
+    </div>
+    <div class="stats-bar-item">
+      <div class="stats-bar-num">37<span>M+</span></div>
+      <div class="stats-bar-label">Votes Cast in 2025</div>
+    </div>
+    <div class="stats-bar-item">
+      <div class="stats-bar-num">5<span>Ã—</span></div>
+      <div class="stats-bar-label">Cinnamoroll Streak Ended</div>
+    </div>
+    <div class="stats-bar-item">
+      <div class="stats-bar-num">450<span>+</span></div>
+      <div class="stats-bar-label">Total Sanrio Characters</div>
+    </div>
+  </div>
+</div>
+
+<!-- â•â• RANKING TOOL â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="section ranking-section" id="rankings">
+  <div class="container">
+    <div class="section-eyebrow">Official Poll Data</div>
+    <h2 class="section-h2">Sanrio Character <em>Rankings</em></h2>
+    <p class="section-sub">Annual popularity poll results from Sanrio's official fan voting. Select a year and view to explore.</p>
+
+    <div class="ranking-tool-shell">
+      <!-- Top control bar -->
+      <div class="tool-topbar">
+        <div class="year-tabs">
+          <button class="year-tab" onclick="setYear(2021,this)">2021</button>
+          <button class="year-tab" onclick="setYear(2022,this)">2022</button>
+          <button class="year-tab" onclick="setYear(2023,this)">2023</button>
+          <button class="year-tab" onclick="setYear(2024,this)">2024</button>
+          <button class="year-tab active latest" onclick="setYear(2025,this)">2025</button>
+        </div>
+        <div class="view-tabs">
+          <button class="view-tab active" onclick="setView('list',this)">ðŸ“‹ List</button>
+          <button class="view-tab" onclick="setView('chart',this)">ðŸ“Š Chart</button>
+          <button class="view-tab" onclick="setView('history',this)">ðŸ“ˆ History</button>
+        </div>
+      </div>
+
+      <div class="tool-content">
+        <!-- LIST VIEW -->
+        <div class="list-view" id="listView">
+          <div class="podium-stage" id="podiumStage"></div>
+          <div class="rank-list" id="rankList"></div>
+        </div>
+
+        <!-- CHART VIEW -->
+        <div class="chart-view" id="chartView">
+          <div class="chart-bars" id="chartBars"></div>
+        </div>
+
+        <!-- HISTORY VIEW -->
+        <div class="history-view" id="historyView">
+          <div class="history-legend" id="historyLegend"></div>
+          <div class="history-chart-wrap">
+            <svg id="historySVG" viewBox="0 0 800 260"></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- â•â• CHARACTER GRID â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="section characters-section" id="characters">
+  <div class="container">
+    <div class="section-eyebrow">Complete Encyclopedia</div>
+    <h2 class="section-h2">All <em>Sanrio Characters</em></h2>
+    <p class="section-sub">Explore in-depth profiles â€” origin stories, friends, family, rankings, and FAQs for every character.</p>
+
+    <div class="filter-strip">
+      <button class="filter-btn active" onclick="filterChars('all',this)">All Characters</button>
+      <button class="filter-btn" onclick="filterChars('top10',this)">ðŸ† Top 10</button>
+      <button class="filter-btn" onclick="filterChars('animal',this)">ðŸ¾ Animals</button>
+      <button class="filter-btn" onclick="filterChars('food',this)">ðŸ® Food-Themed</button>
+      <button class="filter-btn" onclick="filterChars('classic',this)">â­ Classic</button>
+      <button class="filter-btn" onclick="filterChars('edgy',this)">ðŸ–¤ Edgy</button>
+    </div>
+
+    <div class="char-grid" id="charGrid"></div>
+  </div>
+</section>
+
+<!-- â•â• 5-YEAR HISTORY â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="section history-section" id="history">
+  <div class="container">
+    <div class="section-eyebrow">2021 â€” 2025</div>
+    <h2 class="section-h2">Five-Year <em>Ranking History</em></h2>
+    <p class="section-sub">Track how each character's popularity has risen and fallen across five years of polling.</p>
+    <div class="history-grid" id="historyGrid"></div>
+  </div>
+</section>
+
+<!-- â•â• BLOG PREVIEW â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="section blog-section">
+  <div class="container">
+    <div class="section-eyebrow">Editorial</div>
+    <h2 class="section-h2">Latest <em>Analysis</em></h2>
+    <p class="section-sub">Deep dives into the rankings, character histories, and the stories behind the polls.</p>
+    <div class="blog-grid">
+      <a href="/blog/pompompurin-wins-2025" class="blog-card featured">
+        <div class="blog-card-img" style="background: linear-gradient(135deg, #FBF5E6, #E8D5A3);">
+          <div class="blog-card-img-bg">ðŸ®</div>
+          ðŸ®
+        </div>
+        <div class="blog-card-body">
+          <div class="blog-tag">Rankings Analysis</div>
+          <div class="blog-title">Why Pompompurin Won 2025: The Data Behind the Upset</div>
+          <div class="blog-excerpt">After five straight wins, Cinnamoroll finally fell. We dig into the viral campaigns, regional voting shifts, and what this means for Sanrio's future.</div>
+          <div class="blog-meta">May 2025 Â· 8 min read</div>
+        </div>
+      </a>
+      <a href="/blog/kuromi-rise" class="blog-card">
+        <div class="blog-card-img" style="background: linear-gradient(135deg, #F0EBF8, #C5B8E8);">
+          <div class="blog-card-img-bg">ðŸ–¤</div>
+          ðŸ–¤
+        </div>
+        <div class="blog-card-body">
+          <div class="blog-tag">Character Spotlight</div>
+          <div class="blog-title">The Rise of Kuromi: From Villain to Gen Z Icon</div>
+          <div class="blog-excerpt">How My Melody's punk rival became one of the most beloved Sanrio characters of the modern era.</div>
+          <div class="blog-meta">April 2025 Â· 5 min read</div>
+        </div>
+      </a>
+      <a href="/blog/ranking-history-all-years" class="blog-card">
+        <div class="blog-card-img" style="background: linear-gradient(135deg, #FAF0F3, #F2C8D4);">
+          <div class="blog-card-img-bg">ðŸŽ€</div>
+          ðŸŽ€
+        </div>
+        <div class="blog-card-body">
+          <div class="blog-tag">History</div>
+          <div class="blog-title">Every Sanrio Ranking Winner Since 1986 â€” Full History</div>
+          <div class="blog-excerpt">From Hello Kitty's early dominance to Cinnamoroll's modern dynasty, the complete story of 39 years of polls.</div>
+          <div class="blog-meta">March 2025 Â· 12 min read</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- â•â• FAQ â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<section class="section faq-section" id="faq">
+  <div class="container">
+    <div class="section-eyebrow">Common Questions</div>
+    <h2 class="section-h2">Frequently Asked <em>Questions</em></h2>
+    <p class="section-sub">Everything you need to know about the Sanrio Character Ranking.</p>
+    <div class="faq-grid" id="faqGrid"></div>
+  </div>
+</section>
+
+<!-- â•â• FOOTER â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">Sanrio<em>Characters</em>.com</div>
+        <p class="footer-desc">The definitive fan resource for Sanrio character rankings, profiles, and popularity history. Updated annually with official poll data.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Characters</h4>
+        <ul>
+          <li><a href="/characters/pompompurin">Pompompurin</a></li>
+          <li><a href="/characters/cinnamoroll">Cinnamoroll</a></li>
+          <li><a href="/characters/kuromi">Kuromi</a></li>
+          <li><a href="/characters/hello-kitty">Hello Kitty</a></li>
+          <li><a href="/characters">View All â†’</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Rankings</h4>
+        <ul>
+          <li><a href="/rankings/2025">2025 Rankings</a></li>
+          <li><a href="/rankings/2024">2024 Rankings</a></li>
+          <li><a href="/rankings/2023">2023 Rankings</a></li>
+          <li><a href="/rankings/compare">Compare Tool</a></li>
+          <li><a href="/rankings/history">Full History</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/categories">Categories</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/privacy">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        Â© 2025 SanrioCharacters.com â€” Fan resource for Sanrio data.<br>
+        Not affiliated with <a href="https://www.sanrio.co.jp" target="_blank" rel="noopener">Sanrio Co., Ltd.</a>
+      </p>
+      <p class="footer-disclaimer">
+        All character names, imagery and trademarks are the property of Sanrio Co., Ltd.
+        Ranking data sourced from official Sanrio annual polls.
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+<script>
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   DATA LAYER
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+
+const RANKING_DATA = {
+  2025: [
+    { name:"Pompompurin",      emoji:"ðŸ®", desc:"Golden retriever crowned 2025 champion",  trend:"â†‘3",  trendType:"up",   slug:"pompompurin"      },
+    { name:"Cinnamoroll",      emoji:"â˜ï¸", desc:"Five-year reign ends at #2",              trend:"â†“1",  trendType:"down", slug:"cinnamoroll"      },
+    { name:"Pochacco",         emoji:"âš½", desc:"Sporty white dog holds #3",               trend:"â†’",   trendType:"same", slug:"pochacco"         },
+    { name:"Kuromi",           emoji:"ðŸ–¤", desc:"My Melody's edgy punk rival",             trend:"â†“1",  trendType:"down", slug:"kuromi"           },
+    { name:"My Melody",        emoji:"ðŸ°", desc:"Sweet bunny in a pink hood",              trend:"â†‘1",  trendType:"up",   slug:"my-melody"        },
+    { name:"Hello Kitty",      emoji:"ðŸŽ€", desc:"The original Sanrio icon since 1974",     trend:"â†’",   trendType:"same", slug:"hello-kitty"      },
+    { name:"Kerokerokeroppi",  emoji:"ðŸ¸", desc:"Cheerful frog from Donut Pond",           trend:"â†“1",  trendType:"down", slug:"kerokerokeroppi"  },
+    { name:"Hanamaru Obake",   emoji:"ðŸ‘»", desc:"Positive-energy ghost â€” debut 2022",      trend:"â†‘5",  trendType:"up",   slug:"hanamaru-obake"   },
+    { name:"Little Twin Stars",emoji:"â­", desc:"Kiki & Lala, the dreamy star twins",      trend:"â†’",   trendType:"same", slug:"little-twin-stars"},
+    { name:"Yoshikitty",       emoji:"ðŸŽ¸", desc:"Hello Kitty Ã— rockstar Yoshiki",          trend:"NEW", trendType:"new",  slug:"yoshikitty"       },
+    { name:"Bad Badtz-Maru",   emoji:"ðŸ§", desc:"Grumpy penguin with cult following",      trend:"â†‘2",  trendType:"up",   slug:"bad-badtz-maru"   },
+    { name:"Hangyodon",        emoji:"ðŸŸ", desc:"Laid-back fish gaining momentum",         trend:"â†‘4",  trendType:"up",   slug:"hangyodon"        },
+    { name:"Gudetama",         emoji:"ðŸ³", desc:"The perpetually lazy egg",                trend:"â†“1",  trendType:"down", slug:"gudetama"         },
+    { name:"Tuxedosam",        emoji:"ðŸ§", desc:"Dapper penguin in a tuxedo",              trend:"â†‘3",  trendType:"up",   slug:"tuxedosam"        },
+    { name:"Chococat",         emoji:"ðŸ±", desc:"Tech-loving black cat",                   trend:"â†‘2",  trendType:"up",   slug:"chococat"         },
+  ],
+  2024: [
+    { name:"Cinnamoroll",      emoji:"â˜ï¸", desc:"5th consecutive #1 â€” dynasty year",       trend:"â†’",   trendType:"same", slug:"cinnamoroll"      },
+    { name:"Pochacco",         emoji:"âš½", desc:"Soccer pup climbs to #2",                 trend:"â†‘2",  trendType:"up",   slug:"pochacco"         },
+    { name:"Kuromi",           emoji:"ðŸ–¤", desc:"Edgy rival holds top 3",                  trend:"â†‘1",  trendType:"up",   slug:"kuromi"           },
+    { name:"Pompompurin",      emoji:"ðŸ®", desc:"Pudding dog steady in top 5",             trend:"â†’",   trendType:"same", slug:"pompompurin"      },
+    { name:"My Melody",        emoji:"ðŸ°", desc:"Classic pink hood bunny",                 trend:"â†“1",  trendType:"down", slug:"my-melody"        },
+    { name:"Hello Kitty",      emoji:"ðŸŽ€", desc:"50th anniversary â€” back in top 6",        trend:"â†‘2",  trendType:"up",   slug:"hello-kitty"      },
+    { name:"Kerokerokeroppi",  emoji:"ðŸ¸", desc:"Frog jumps from #12 to #7",               trend:"â†‘5",  trendType:"up",   slug:"kerokerokeroppi"  },
+    { name:"Little Twin Stars",emoji:"â­", desc:"Star twins steady",                       trend:"â†“2",  trendType:"down", slug:"little-twin-stars"},
+    { name:"Hangyodon",        emoji:"ðŸŸ", desc:"Fish gaining major momentum",             trend:"â†‘3",  trendType:"up",   slug:"hangyodon"        },
+    { name:"Bad Badtz-Maru",   emoji:"ðŸ§", desc:"Grumpy penguin back in top 10",           trend:"â†’",   trendType:"same", slug:"bad-badtz-maru"   },
+  ],
+  2023: [
+    { name:"Cinnamoroll",      emoji:"â˜ï¸", desc:"4th consecutive #1 win",                  trend:"â†’",   trendType:"same", slug:"cinnamoroll"      },
+    { name:"Pompompurin",      emoji:"ðŸ®", desc:"Pudding dog reclaims #2",                 trend:"â†‘1",  trendType:"up",   slug:"pompompurin"      },
+    { name:"Kuromi",           emoji:"ðŸ–¤", desc:"Solidifies top 3 status",                 trend:"â†‘1",  trendType:"up",   slug:"kuromi"           },
+    { name:"My Melody",        emoji:"ðŸ°", desc:"Classic bunny holds top 5",               trend:"â†“1",  trendType:"down", slug:"my-melody"        },
+    { name:"Hello Kitty",      emoji:"ðŸŽ€", desc:"Original icon stays in top 5",            trend:"â†’",   trendType:"same", slug:"hello-kitty"      },
+    { name:"Pochacco",         emoji:"âš½", desc:"Sporty dog on steady climb",              trend:"â†‘1",  trendType:"up",   slug:"pochacco"         },
+    { name:"Little Twin Stars",emoji:"â­", desc:"Global retro revival continues",          trend:"â†‘1",  trendType:"up",   slug:"little-twin-stars"},
+    { name:"Gudetama",         emoji:"ðŸ³", desc:"Lazy egg still beloved",                  trend:"â†“1",  trendType:"down", slug:"gudetama"         },
+    { name:"Hangyodon",        emoji:"ðŸŸ", desc:"Fish rising fast in fan polls",           trend:"â†‘4",  trendType:"up",   slug:"hangyodon"        },
+    { name:"Bad Badtz-Maru",   emoji:"ðŸ§", desc:"Penguin jumps from #12",                 trend:"â†‘2",  trendType:"up",   slug:"bad-badtz-maru"   },
+  ],
+  2022: [
+    { name:"Cinnamoroll",      emoji:"â˜ï¸", desc:"3rd consecutive year at #1",              trend:"â†’",   trendType:"same", slug:"cinnamoroll"      },
+    { name:"My Melody",        emoji:"ðŸ°", desc:"Returns to strong #2",                    trend:"â†‘2",  trendType:"up",   slug:"my-melody"        },
+    { name:"Pompompurin",      emoji:"ðŸ®", desc:"Pudding dog in the top 3",                trend:"â†‘1",  trendType:"up",   slug:"pompompurin"      },
+    { name:"Kuromi",           emoji:"ðŸ–¤", desc:"Breaks into top 5 strongly",              trend:"â†‘3",  trendType:"up",   slug:"kuromi"           },
+    { name:"Hello Kitty",      emoji:"ðŸŽ€", desc:"Original icon holds strong",              trend:"â†’",   trendType:"same", slug:"hello-kitty"      },
+    { name:"Pochacco",         emoji:"âš½", desc:"Sporty pup gains new fans",               trend:"â†‘2",  trendType:"up",   slug:"pochacco"         },
+    { name:"Little Twin Stars",emoji:"â­", desc:"Retro revival continues",                 trend:"â†‘1",  trendType:"up",   slug:"little-twin-stars"},
+    { name:"Gudetama",         emoji:"ðŸ³", desc:"Lazy egg stays relevant",                 trend:"â†“2",  trendType:"down", slug:"gudetama"         },
+    { name:"Kerokerokeroppi",  emoji:"ðŸ¸", desc:"Classic frog in top 10",                  trend:"â†‘1",  trendType:"up",   slug:"kerokerokeroppi"  },
+    { name:"Bad Badtz-Maru",   emoji:"ðŸ§", desc:"Grumpy but popular",                     trend:"â†“1",  trendType:"down", slug:"bad-badtz-maru"   },
+  ],
+  2021: [
+    { name:"Cinnamoroll",      emoji:"â˜ï¸", desc:"2nd straight year at #1",                 trend:"â†’",   trendType:"same", slug:"cinnamoroll"      },
+    { name:"Pompompurin",      emoji:"ðŸ®", desc:"Pudding dog close behind",                trend:"â†‘1",  trendType:"up",   slug:"pompompurin"      },
+    { name:"Hello Kitty",      emoji:"ðŸŽ€", desc:"All-time legend holds #3",                trend:"â†“1",  trendType:"down", slug:"hello-kitty"      },
+    { name:"My Melody",        emoji:"ðŸ°", desc:"Classic bunny fan favourite",             trend:"â†’",   trendType:"same", slug:"my-melody"        },
+    { name:"Kuromi",           emoji:"ðŸ–¤", desc:"Edgy rival entering top 5",               trend:"â†‘3",  trendType:"up",   slug:"kuromi"           },
+    { name:"Pochacco",         emoji:"âš½", desc:"Athletic pup growing fanbase",            trend:"â†‘2",  trendType:"up",   slug:"pochacco"         },
+    { name:"Kerokerokeroppi",  emoji:"ðŸ¸", desc:"Nostalgic frog comeback",                 trend:"â†‘1",  trendType:"up",   slug:"kerokerokeroppi"  },
+    { name:"Gudetama",         emoji:"ðŸ³", desc:"Relatable lazy egg",                      trend:"â†“2",  trendType:"down", slug:"gudetama"         },
+    { name:"Little Twin Stars",emoji:"â­", desc:"Star twins retro appeal",                 trend:"â†‘1",  trendType:"up",   slug:"little-twin-stars"},
+    { name:"Bad Badtz-Maru",   emoji:"ðŸ§", desc:"Grumpy penguin cult following",           trend:"â†“1",  trendType:"down", slug:"bad-badtz-maru"   },
+  ]
+};
+
+const ALL_CHARACTERS = [
+  { name:"Pompompurin",      emoji:"ðŸ®", rank:1,  tagline:"Pudding-loving golden retriever in a brown beret", slug:"pompompurin",      cats:["animal","top10","classic"] },
+  { name:"Cinnamoroll",      emoji:"â˜ï¸", rank:2,  tagline:"Fluffy white puppy with a cinnamon-roll tail",     slug:"cinnamoroll",      cats:["animal","top10","classic"] },
+  { name:"Pochacco",         emoji:"âš½", rank:3,  tagline:"Soccer-loving sporty white puppy",                 slug:"pochacco",         cats:["animal","top10","classic"] },
+  { name:"Kuromi",           emoji:"ðŸ–¤", rank:4,  tagline:"My Melody's punk rock alter ego",                  slug:"kuromi",           cats:["animal","top10","edgy"]   },
+  { name:"My Melody",        emoji:"ðŸ°", rank:5,  tagline:"Sweet pink-hooded bunny from Mariland",            slug:"my-melody",        cats:["animal","top10","classic"] },
+  { name:"Hello Kitty",      emoji:"ðŸŽ€", rank:6,  tagline:"The original Sanrio icon since 1974",              slug:"hello-kitty",      cats:["animal","top10","classic"] },
+  { name:"Kerokerokeroppi",  emoji:"ðŸ¸", rank:7,  tagline:"Cheerful frog from Donut Pond",                   slug:"kerokerokeroppi",  cats:["animal","top10","classic"] },
+  { name:"Hanamaru Obake",   emoji:"ðŸ‘»", rank:8,  tagline:"Positivity-radiating ghost â€” debut 2022",          slug:"hanamaru-obake",   cats:["top10"]                   },
+  { name:"Little Twin Stars",emoji:"â­", rank:9,  tagline:"Kiki & Lala, the dreamy celestial twin duo",       slug:"little-twin-stars",cats:["top10","classic"]         },
+  { name:"Yoshikitty",       emoji:"ðŸŽ¸", rank:10, tagline:"Hello Kitty Ã— rock legend Yoshiki collab",         slug:"yoshikitty",       cats:["top10","edgy"]            },
+  { name:"Bad Badtz-Maru",   emoji:"ðŸ§", rank:11, tagline:"Glaring grumpy penguin with a cult following",     slug:"bad-badtz-maru",   cats:["animal","edgy","classic"] },
+  { name:"Hangyodon",        emoji:"ðŸŸ", rank:12, tagline:"Laid-back fish with a big heart",                  slug:"hangyodon",        cats:["animal","classic"]        },
+  { name:"Gudetama",         emoji:"ðŸ³", rank:13, tagline:"The world's most relatable lazy egg",              slug:"gudetama",         cats:["food","classic"]          },
+  { name:"Tuxedosam",        emoji:"ðŸ§", rank:14, tagline:"Dapper little penguin in a bow tie",               slug:"tuxedosam",        cats:["animal","classic"]        },
+  { name:"Chococat",         emoji:"ðŸ±", rank:15, tagline:"Tech-savvy black cat with special antenna whiskers",slug:"chococat",        cats:["animal","classic"]        },
+  { name:"Aggretsuko",       emoji:"ðŸ¦Š", rank:18, tagline:"Death-metal screaming office worker red panda",    slug:"aggretsuko",       cats:["animal","edgy"]           },
+  { name:"Wish Me Mell",     emoji:"ðŸ€", rank:22, tagline:"Lucky four-leaf clover deer with big dreams",      slug:"wish-me-mell",     cats:["animal","classic"]        },
+  { name:"Cogimyun",         emoji:"ðŸ„", rank:25, tagline:"Little mushroom girl always on the go",            slug:"cogimyun",         cats:["food"]                    },
+  { name:"Pekkle",           emoji:"ðŸ¦†", rank:30, tagline:"Dancing duck who lives to perform",                slug:"pekkle",           cats:["animal","classic"]        },
+  { name:"Usahana",          emoji:"ðŸŒ¸", rank:33, tagline:"Ballet-dancing bunny with effortless grace",       slug:"usahana",          cats:["animal","classic"]        },
+];
+
+const HISTORY_DATA = [
+  { name:"Cinnamoroll",     emoji:"â˜ï¸", ranks:[1,1,1,1,2],  slug:"cinnamoroll"       },
+  { name:"Pompompurin",     emoji:"ðŸ®", ranks:[2,3,2,4,1],  slug:"pompompurin"       },
+  { name:"Kuromi",          emoji:"ðŸ–¤", ranks:[5,4,3,3,4],  slug:"kuromi"            },
+  { name:"Hello Kitty",     emoji:"ðŸŽ€", ranks:[3,5,5,6,6],  slug:"hello-kitty"       },
+  { name:"My Melody",       emoji:"ðŸ°", ranks:[4,2,4,5,5],  slug:"my-melody"         },
+  { name:"Pochacco",        emoji:"âš½", ranks:[6,6,6,2,3],  slug:"pochacco"          },
+  { name:"Kerokerokeroppi", emoji:"ðŸ¸", ranks:[7,9,8,7,7],  slug:"kerokerokeroppi"   },
+  { name:"Hangyodon",       emoji:"ðŸŸ", ranks:[13,12,9,9,12],slug:"hangyodon"        },
+  { name:"Bad Badtz-Maru",  emoji:"ðŸ§", ranks:[10,10,10,10,11],slug:"bad-badtz-maru" },
+];
+
+const HISTORY_COLORS = [
+  "#C2185B","#C9A84C","#7C3AED","#0891B2","#059669",
+  "#D97706","#DB2777","#4F46E5","#16A34A"
+];
+
+const FAQS = [
+  { q:"Who won the 2025 Sanrio Character Ranking?",        a:"Pompompurin won the 2025 Sanrio Character Ranking, dethroning Cinnamoroll who had held the #1 spot for five consecutive years (2020â€“2024). Social media campaigns like \"Anyone but Cinnamoroll\" played a significant role in this historic upset â€” marking a major shift in the modern era of Sanrio fandom." },
+  { q:"How does the Sanrio Character Ranking work?",       a:"Sanrio opens an online voting period (typically Aprilâ€“May each year) where fans worldwide vote once per day for their favourite characters. Around 90 characters are eligible each year, selected from Sanrio's 450+ roster. Votes are tallied globally, and final results are announced at Sanrio Fes in late June." },
+  { q:"When did Cinnamoroll last win the ranking?",        a:"Cinnamoroll won 7 times in total: 2017, 2018, 2020, 2021, 2022, 2023, and 2024 â€” making him the most dominant character in recent history. Hello Kitty broke his first streak by winning in 2019. In 2025, Pompompurin ended his five-year run through a massive fan campaign." },
+  { q:"How many Sanrio characters exist in total?",        a:"Sanrio has created over 450 characters since the company's founding in 1960. Each year, approximately 90 are entered into the popularity ranking. Characters range from iconic classics like Hello Kitty (1974) to fresh newcomers like Hanamaru Obake (2022 debut)." },
+  { q:"Which character has won the most Sanrio rankings?", a:"Hello Kitty holds the all-time record for most wins in Sanrio Character Ranking history, having dominated the polls through much of the 1980s, 1990s and 2000s. In the modern era, Cinnamoroll is the reigning champion with 7 wins across 2017â€“2024." },
+  { q:"Does ranking affect Sanrio merchandise production?", a:"Yes â€” higher-ranked characters typically receive significantly more merchandise releases, high-profile brand collaborations, and featured placement at Sanrio Fes and pop-up events. The annual ranking is widely regarded as a key signal informing Sanrio's global marketing and product decisions for the following year." },
+];
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   STATE
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+let currentYear = 2025;
+let currentView = 'list';
+let currentFilter = 'all';
+
+const SANRIO_IMAGE_SLUGS = {
+  "hello-kitty": "hellokitty",
+  "bad-badtz-maru": "badbadtzmaru",
+  "little-twin-stars": "littletwinstars",
+  "kerokerokeroppi": "kerokerokeroppi",
+  "my-melody": "mymelody",
+  "my-sweet-piano": "mysweetpiano",
+  "wish-me-mell": "wishmemell",
+  "ahirunopekkle": "ahirunopekkle",
+  "pekkle": "ahirunopekkle",
+  "hanamaru-obake": "hanamaruobake"
+};
+
+function sanrioImageSlug(ch) {
+  return SANRIO_IMAGE_SLUGS[ch.slug] || ch.slug.replace(/-/g, '');
+}
+
+function characterArt(ch, className, eager = false) {
+  const loading = eager ? 'eager' : 'lazy';
+  const src = `https://corporate.sanrio.co.jp/en/business-info/images/img_${sanrioImageSlug(ch)}.png`;
+  return `<img class="${className} character-art" src="${src}" alt="${ch.name} Sanrio character official art" width="140" height="140" loading="${loading}" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'${className}',textContent:'${ch.emoji}'}))">`;
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   RENDER: HERO MINI LIST
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+function renderHeroList() {
+  const data = RANKING_DATA[2025];
+  const el = document.getElementById('hwcRest');
+  el.innerHTML = data.slice(3, 8).map((ch, i) => {
+    const tClass = {up:'trend-up',down:'trend-down',same:'trend-same',new:'trend-new'}[ch.trendType];
+    return `<a href="/characters/${ch.slug}" class="hwc-row">
+      <span class="hwc-row-rank">#${i+4}</span>
+      ${characterArt(ch, 'hwc-row-emoji')}
+      <span class="hwc-row-name">${ch.name}</span>
+      <span class="hwc-row-trend ${tClass}">${ch.trend}</span>
+    </a>`;
+  }).join('');
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   RENDER: PODIUM
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+function renderPodium(data) {
+  const el = document.getElementById('podiumStage');
+  const top3 = data.slice(0, 3);
+  // Order: 2nd, 1st, 3rd
+  const order = [
+    { ch: top3[1], rankClass: 'rank-2', medal: 'ðŸ¥ˆ', pos: '2nd' },
+    { ch: top3[0], rankClass: 'rank-1', medal: 'ðŸ‘‘', pos: '1st' },
+    { ch: top3[2], rankClass: 'rank-3', medal: 'ðŸ¥‰', pos: '3rd' },
+  ];
+  el.innerHTML = order.map(({ ch, rankClass, medal, pos }) => `
+    <a href="/characters/${ch.slug}" class="podium-card ${rankClass}">
+      <div class="podium-medal">${medal}</div>
+      ${characterArt(ch, 'podium-emoji', true)}
+      <div class="podium-position">${pos}</div>
+      <div class="podium-name">${ch.name}</div>
+      <div class="podium-year-pill">${currentYear} Ranking</div>
+    </a>
+  `).join('');
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   RENDER: RANK LIST (4 onwards)
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+function renderList(data) {
+  const el = document.getElementById('rankList');
+  el.innerHTML = data.slice(3).map((ch, i) => {
+    const rank = i + 4;
+    const tClass = {up:'trend-up',down:'trend-down',same:'trend-same',new:'trend-new'}[ch.trendType];
+    return `<a href="/characters/${ch.slug}" class="rank-row">
+      <span class="rank-row-num">#${rank}</span>
+      ${characterArt(ch, 'rank-row-emoji')}
+      <div class="rank-row-info">
+        <div class="rank-row-name">${ch.name}</div>
+        <div class="rank-row-desc">${ch.desc}</div>
+      </div>
+      <span class="rank-row-trend ${tClass}">${ch.trend}</span>
+    </a>`;
+  }).join('');
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   RENDER: BAR CHART
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+const CHART_PALETTE = [
+  "#C2185B","#C9A84C","#7C3AED","#0891B2","#059669",
+  "#D97706","#DB2777","#4F46E5","#16A34A","#EA580C",
+  "#0284C7","#9333EA","#0D9488","#B45309","#DC2626"
+];
+
+function renderChart(data) {
+  const el = document.getElementById('chartBars');
+  el.innerHTML = data.map((ch, i) => {
+    const pct = Math.max(12, Math.round((1 - i / data.length) * 92));
+    const color = CHART_PALETTE[i % CHART_PALETTE.length];
+    return `<div class="chart-row">
+      <div class="chart-label">${characterArt(ch, 'chart-label-art')} ${ch.name}</div>
+      <div class="chart-track">
+        <div class="chart-fill" style="width:${pct}%;background:${color};animation-delay:${i*0.05}s">#${i+1}</div>
+      </div>
+      <div class="chart-rank-label">${i+1}</div>
+    </div>`;
+  }).join('');
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   RENDER: HISTORY SVG LINE CHART
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+function renderHistorySVG() {
+  const svg = document.getElementById('historySVG');
+  const legend = document.getElementById('historyLegend');
+  const years = [2021, 2022, 2023, 2024, 2025];
+  const W = 800, H = 260;
+  const padL = 40, padR = 20, padT = 20, padB = 40;
+  const chartW = W - padL - padR;
+  const chartH = H - padT - padB;
+  const maxRank = 14;
+
+  function xPos(i)    { return padL + (i / (years.length - 1)) * chartW; }
+  function yPos(rank) { return padT + ((rank - 1) / (maxRank - 1)) * chartH; }
+
+  let svgHTML = '';
+
+  // Grid lines (horizontal)
+  [1, 3, 5, 7, 10, 14].forEach(rank => {
+    const y = yPos(rank);
+    svgHTML += `<line x1="${padL}" y1="${y}" x2="${W - padR}" y2="${y}" stroke="rgba(28,10,22,0.06)" stroke-width="1"/>`;
+    svgHTML += `<text x="${padL - 6}" y="${y + 4}" font-size="9" fill="rgba(28,10,22,0.3)" text-anchor="end" font-family="DM Sans, sans-serif">#${rank}</text>`;
+  });
+
+  // Year labels
+  years.forEach((yr, i) => {
+    svgHTML += `<text x="${xPos(i)}" y="${H - 6}" font-size="11" font-weight="600" fill="rgba(28,10,22,0.4)" text-anchor="middle" font-family="DM Sans, sans-serif">${yr}</text>`;
+  });
+
+  // Lines + dots per character
+  HISTORY_DATA.forEach((ch, ci) => {
+    const color = HISTORY_COLORS[ci];
+    const pts = ch.ranks.map((r, i) => `${xPos(i)},${yPos(r)}`).join(' ');
+
+    // Polyline
+    svgHTML += `<polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>`;
+
+    // Dots + tooltips
+    ch.ranks.forEach((r, i) => {
+      const cx = xPos(i), cy = yPos(r);
+      const isWin = r === 1;
+      svgHTML += `
+        <g class="history-dot-group">
+          <circle cx="${cx}" cy="${cy}" r="${isWin ? 7 : 5}" fill="${color}" stroke="white" stroke-width="2"/>
+          ${isWin ? `<text x="${cx}" y="${cy + 4}" font-size="8" text-anchor="middle" fill="white">â˜…</text>` : ''}
+          <title>${ch.name} â€” ${years[i]}: #${r}</title>
+        </g>`;
+    });
+  });
+
+  svg.innerHTML = svgHTML;
+
+  // Legend
+  legend.innerHTML = HISTORY_DATA.map((ch, i) => `
+    <div class="history-legend-item">
+      <div class="legend-dot" style="background:${HISTORY_COLORS[i]}"></div>
+      ${characterArt(ch, 'legend-art')} ${ch.name}
+    </div>
+  `).join('');
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   RENDER: CHARACTER GRID
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+function renderCharGrid(filter = 'all') {
+  const el = document.getElementById('charGrid');
+  const chars = filter === 'all'
+    ? ALL_CHARACTERS
+    : ALL_CHARACTERS.filter(c => c.cats.includes(filter));
+  el.innerHTML = chars.map(ch => {
+    const isTop3 = ch.rank <= 3;
+    return `<a href="/characters/${ch.slug}" class="char-card">
+      ${characterArt(ch, 'char-emoji')}
+      <div class="char-name">${ch.name}</div>
+      <span class="char-rank-badge ${isTop3 ? 'top3' : ''}">#${ch.rank} in 2025</span>
+      <div class="char-tagline">${ch.tagline}</div>
+    </a>`;
+  }).join('');
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   RENDER: HISTORY GRID
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+function renderHistoryGrid() {
+  const el = document.getElementById('historyGrid');
+  const years = ['21','22','23','24','25'];
+  el.innerHTML = HISTORY_DATA.map((ch, ci) => {
+    const color = HISTORY_COLORS[ci];
+    const trend = ch.ranks[4] < ch.ranks[0] ? 'â†‘' : ch.ranks[4] > ch.ranks[0] ? 'â†“' : 'â†’';
+    const trendColor = trend === 'â†‘' ? '#86EFAC' : trend === 'â†“' ? '#FCA5A5' : 'rgba(255,255,255,0.3)';
+    const bars = ch.ranks.map((rank, i) => {
+      const h = Math.max(8, Math.round((1 - (rank - 1) / 14) * 64));
+      const isWin = rank === 1;
+      return `<div class="hc-bar-col">
+        <div class="hc-rank">#${rank}</div>
+        <div class="hc-bar-wrap">
+          <div class="hc-bar ${isWin ? 'winner' : ''}" style="height:${h}px;${isWin ? '' : 'background:rgba(255,255,255,0.12)'}"></div>
+        </div>
+        <div class="hc-yr">'${years[i]}</div>
+      </div>`;
+    }).join('');
+    return `<a href="/characters/${ch.slug}" class="history-card">
+      <div class="hc-header">
+        <div class="hc-name">${characterArt(ch, 'history-name-art')} ${ch.name}</div>
+        <div class="hc-trend-badge" style="background:${color}22;color:${trendColor}">${trend} Overall</div>
+      </div>
+      <div class="hc-bars">${bars}</div>
+    </a>`;
+  }).join('');
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   RENDER: FAQ
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+function renderFAQ() {
+  const el = document.getElementById('faqGrid');
+  el.innerHTML = FAQS.map((faq, i) => `
+    <div class="faq-item" id="faq${i}">
+      <div class="faq-q" onclick="toggleFAQ(${i})">${faq.q}</div>
+      <div class="faq-a">${faq.a}</div>
+    </div>
+  `).join('');
+}
+
+function toggleFAQ(i) {
+  document.getElementById('faq' + i).classList.toggle('open');
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   TOOL CONTROLS
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+function setYear(year, btn) {
+  currentYear = year;
+  document.querySelectorAll('.year-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderCurrentView();
+  // Update URL without reload
+  const url = new URL(window.location);
+  url.searchParams.set('year', year);
+  history.replaceState({}, '', url);
+}
+
+function setView(view, btn) {
+  currentView = view;
+  document.querySelectorAll('.view-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+
+  const listEl  = document.getElementById('listView');
+  const chartEl = document.getElementById('chartView');
+  const histEl  = document.getElementById('historyView');
+
+  listEl.classList.toggle('inactive', view !== 'list');
+  chartEl.classList.toggle('active', view === 'chart');
+  histEl.classList.toggle('active', view === 'history');
+
+  renderCurrentView();
+}
+
+function renderCurrentView() {
+  const data = RANKING_DATA[currentYear];
+  if (currentView === 'list') {
+    renderPodium(data);
+    renderList(data);
+  } else if (currentView === 'chart') {
+    renderChart(data);
+  } else {
+    renderHistorySVG();
+  }
+}
+
+function filterChars(filter, btn) {
+  currentFilter = filter;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderCharGrid(filter);
+}
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   SEARCH
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+document.getElementById('navSearch').addEventListener('input', function() {
+  const val = this.value.trim().toLowerCase();
+  if (val.length < 2) return;
+  const match = ALL_CHARACTERS.find(c => c.name.toLowerCase().includes(val));
+  if (match) {
+    this.style.borderColor = '#059669';
+  } else {
+    this.style.borderColor = '';
+  }
+});
+
+document.getElementById('navSearch').addEventListener('keydown', function(e) {
+  if (e.key !== 'Enter') return;
+  const val = this.value.trim().toLowerCase();
+  const match = ALL_CHARACTERS.find(c => c.name.toLowerCase().includes(val));
+  if (match) window.location.href = `/characters/${match.slug}`;
+});
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   BLOSSOM PARTICLES
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+function spawnBlossom() {
+  const container = document.getElementById('blossomContainer');
+  const petals = ['ðŸŒ¸', 'ðŸŒº', 'ðŸŒ¼', 'âœ¿', 'â€'];
+  const el = document.createElement('div');
+  el.className = 'blossom';
+  el.textContent = petals[Math.floor(Math.random() * petals.length)];
+  el.style.left = Math.random() * 100 + 'vw';
+  el.style.fontSize = (Math.random() * 10 + 10) + 'px';
+  el.style.animationDuration = (Math.random() * 8 + 10) + 's';
+  el.style.animationDelay = (Math.random() * 5) + 's';
+  el.style.opacity = '0';
+  container.appendChild(el);
+  setTimeout(() => el.remove(), 20000);
+}
+
+// Spawn blossoms periodically
+for (let i = 0; i < 6; i++) setTimeout(spawnBlossom, i * 1500);
+setInterval(spawnBlossom, 3000);
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   INTERSECTION OBSERVER (scroll reveals)
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+const io = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = '1';
+      entry.target.style.transform = 'translateY(0)';
+      io.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.char-card, .history-card, .blog-card, .faq-item, .stats-bar-item').forEach((el, i) => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(20px)';
+  el.style.transition = `opacity 0.5s ${i * 0.04}s cubic-bezier(0.22,1,0.36,1), transform 0.5s ${i * 0.04}s cubic-bezier(0.22,1,0.36,1)`;
+  io.observe(el);
+});
+
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   INIT
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
+(function init() {
+  // Check URL params
+  const urlYear = parseInt(new URLSearchParams(location.search).get('year'));
+  if (urlYear && RANKING_DATA[urlYear]) currentYear = urlYear;
+
+  renderHeroList();
+  renderCurrentView();
+  renderCharGrid();
+  renderHistoryGrid();
+  renderFAQ();
+
+  // Re-observe after dynamic render
+  setTimeout(() => {
+    document.querySelectorAll('.char-card, .history-card, .blog-card, .faq-item').forEach((el, i) => {
+      if (el.style.opacity !== '1') io.observe(el);
+    });
+  }, 100);
+})();
+</script>
+</body>
+</html>
+
